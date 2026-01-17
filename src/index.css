@@ -100,6 +100,21 @@
   body {
     @apply bg-background text-foreground;
     font-family: "Merriweather", serif;
+    background-image:
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 35px,
+        hsl(30 35% 88%) 35px,
+        hsl(30 35% 88%) 70px
+      ),
+      repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 35px,
+        hsl(30 30% 90%) 35px,
+        hsl(30 30% 90%) 70px
+      );
   }
 
   h1,
